@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BNSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BNSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* LoginController.xib */; };
+		CB8851571415C8A0006CBAE5 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8851561415C8A0006CBAE5 /* LoginController.m */; };
+		CB88521F1415D0A3006CBAE5 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB88521D1415D0A3006CBAE5 /* MainController.m */; };
+		CB8852201415D0A3006CBAE5 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB88521E1415D0A3006CBAE5 /* MainController.xib */; };
+		CB8C87D11416158500AD06BC /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8C87CF1416158500AD06BC /* checkbox_checked.png */; };
+		CB8C87D21416158500AD06BC /* checkbox_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8C87D01416158500AD06BC /* checkbox_nor.png */; };
+		CB8C88301416183F00AD06BC /* button_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8C882E1416183F00AD06BC /* button_nor.png */; };
+		CB8C88311416183F00AD06BC /* button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = CB8C882F1416183F00AD06BC /* button_pressed.png */; };
+		CBA26CD91419C3DE00D351B1 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA26CD81419C3DE00D351B1 /* iToast.m */; };
+		CBA26DA31419E5F000D351B1 /* CHSStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA26DA21419E5F000D351B1 /* CHSStatusBar.m */; };
+		CBA26DA51419E60200D351B1 /* statusbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA26DA41419E60200D351B1 /* statusbar_background.png */; };
+		CBA270AA141A052800D351B1 /* CHKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA270A9141A052800D351B1 /* CHKeychain.m */; };
+		CBA27115141A09A000D351B1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA27114141A09A000D351B1 /* Security.framework */; };
+		CBA2715E141A0F8400D351B1 /* Prefs.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA2715D141A0F8400D351B1 /* Prefs.m */; };
+		CBB97A97141706F4005A36E3 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB97A95141706F4005A36E3 /* RegisterController.m */; };
+		CBB97A98141706F4005A36E3 /* RegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB97A96141706F4005A36E3 /* RegisterController.xib */; };
+		CBC088581415BA0D0085B29E /* titlebar_focused.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC088561415BA0D0085B29E /* titlebar_focused.png */; };
+		CBC088591415BA0D0085B29E /* titlebar_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC088571415BA0D0085B29E /* titlebar_normal.png */; };
+		CBC0886B1415BB120085B29E /* ad.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC0886A1415BB120085B29E /* ad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BNSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BNSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* BNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* BNS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNS_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BNS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BNS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CB8851551415C8A0006CBAE5 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		CB8851561415C8A0006CBAE5 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		CB88521C1415D0A3006CBAE5 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		CB88521D1415D0A3006CBAE5 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		CB88521E1415D0A3006CBAE5 /* MainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainController.xib; path = Classes/MainController.xib; sourceTree = "<group>"; };
+		CB8C87CF1416158500AD06BC /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox_checked.png; path = images/checkbox_checked.png; sourceTree = "<group>"; };
+		CB8C87D01416158500AD06BC /* checkbox_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkbox_nor.png; path = images/checkbox_nor.png; sourceTree = "<group>"; };
+		CB8C882E1416183F00AD06BC /* button_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_nor.png; path = images/button_nor.png; sourceTree = "<group>"; };
+		CB8C882F1416183F00AD06BC /* button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_pressed.png; path = images/button_pressed.png; sourceTree = "<group>"; };
+		CBA26CD71419C3DE00D351B1 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iToast.h; path = ui/iToast.h; sourceTree = "<group>"; };
+		CBA26CD81419C3DE00D351B1 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iToast.m; path = ui/iToast.m; sourceTree = "<group>"; };
+		CBA26DA11419E5F000D351B1 /* CHStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHStatusBar.h; path = ui/CHStatusBar.h; sourceTree = "<group>"; };
+		CBA26DA21419E5F000D351B1 /* CHSStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHSStatusBar.m; path = ui/CHSStatusBar.m; sourceTree = "<group>"; };
+		CBA26DA41419E60200D351B1 /* statusbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statusbar_background.png; path = Classes/ui/statusbar_background.png; sourceTree = "<group>"; };
+		CBA270A8141A052800D351B1 /* CHKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHKeychain.h; path = util/CHKeychain.h; sourceTree = "<group>"; };
+		CBA270A9141A052800D351B1 /* CHKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHKeychain.m; path = util/CHKeychain.m; sourceTree = "<group>"; };
+		CBA27114141A09A000D351B1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CBA2715C141A0F8400D351B1 /* Prefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefs.h; sourceTree = "<group>"; };
+		CBA2715D141A0F8400D351B1 /* Prefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prefs.m; sourceTree = "<group>"; };
+		CBB97A94141706F4005A36E3 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		CBB97A95141706F4005A36E3 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		CBB97A96141706F4005A36E3 /* RegisterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegisterController.xib; path = Classes/RegisterController.xib; sourceTree = "<group>"; };
+		CBC088561415BA0D0085B29E /* titlebar_focused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titlebar_focused.png; path = images/titlebar_focused.png; sourceTree = "<group>"; };
+		CBC088571415BA0D0085B29E /* titlebar_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titlebar_normal.png; path = images/titlebar_normal.png; sourceTree = "<group>"; };
+		CBC0886A1415BB120085B29E /* ad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ad.png; path = images/ad.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CBA27115141A09A000D351B1 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CBA26CB71419C26400D351B1 /* util */,
+				CBA26B361419B2B200D351B1 /* protocol */,
+				CB8C87BB1416141000AD06BC /* ui */,
+				1D3623240D0F684500981E51 /* BNSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BNSAppDelegate.m */,
+				CB8851551415C8A0006CBAE5 /* LoginController.h */,
+				CB8851561415C8A0006CBAE5 /* LoginController.m */,
+				CBB97A94141706F4005A36E3 /* RegisterController.h */,
+				CBB97A95141706F4005A36E3 /* RegisterController.m */,
+				CB88521C1415D0A3006CBAE5 /* MainController.h */,
+				CB88521D1415D0A3006CBAE5 /* MainController.m */,
+				CBA2715C141A0F8400D351B1 /* Prefs.h */,
+				CBA2715D141A0F8400D351B1 /* Prefs.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BNS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BNS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBC0885A1415BA130085B29E /* images */,
+				28AD733E0D9D9553002E5188 /* LoginController.xib */,
+				CBB97A96141706F4005A36E3 /* RegisterController.xib */,
+				CB88521E1415D0A3006CBAE5 /* MainController.xib */,
+				8D1107310486CEB800E47090 /* BNS-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				CBA27114141A09A000D351B1 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB8C87BB1416141000AD06BC /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				CBA26DA11419E5F000D351B1 /* CHStatusBar.h */,
+				CBA26DA21419E5F000D351B1 /* CHSStatusBar.m */,
+				CBA26CD71419C3DE00D351B1 /* iToast.h */,
+				CBA26CD81419C3DE00D351B1 /* iToast.m */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		CBA26B361419B2B200D351B1 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = protocol;
+			sourceTree = "<group>";
+		};
+		CBA26CB71419C26400D351B1 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				CBA270A8141A052800D351B1 /* CHKeychain.h */,
+				CBA270A9141A052800D351B1 /* CHKeychain.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		CBC0885A1415BA130085B29E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CBA26DA41419E60200D351B1 /* statusbar_background.png */,
+				CB8C882E1416183F00AD06BC /* button_nor.png */,
+				CB8C882F1416183F00AD06BC /* button_pressed.png */,
+				CB8C87CF1416158500AD06BC /* checkbox_checked.png */,
+				CB8C87D01416158500AD06BC /* checkbox_nor.png */,
+				CBC0886A1415BB120085B29E /* ad.png */,
+				CBC088561415BA0D0085B29E /* titlebar_focused.png */,
+				CBC088571415BA0D0085B29E /* titlebar_normal.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BNS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNS;
+			productName = BNS;
+			productReference = 1D6058910D05DD3D006BFB54 /* BNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BNS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BNS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* LoginController.xib in Resources */,
+				CBC088581415BA0D0085B29E /* titlebar_focused.png in Resources */,
+				CBC088591415BA0D0085B29E /* titlebar_normal.png in Resources */,
+				CBC0886B1415BB120085B29E /* ad.png in Resources */,
+				CB8852201415D0A3006CBAE5 /* MainController.xib in Resources */,
+				CB8C87D11416158500AD06BC /* checkbox_checked.png in Resources */,
+				CB8C87D21416158500AD06BC /* checkbox_nor.png in Resources */,
+				CB8C88301416183F00AD06BC /* button_nor.png in Resources */,
+				CB8C88311416183F00AD06BC /* button_pressed.png in Resources */,
+				CBB97A98141706F4005A36E3 /* RegisterController.xib in Resources */,
+				CBA26DA51419E60200D351B1 /* statusbar_background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BNSAppDelegate.m in Sources */,
+				CB8851571415C8A0006CBAE5 /* LoginController.m in Sources */,
+				CB88521F1415D0A3006CBAE5 /* MainController.m in Sources */,
+				CBB97A97141706F4005A36E3 /* RegisterController.m in Sources */,
+				CBA26CD91419C3DE00D351B1 /* iToast.m in Sources */,
+				CBA26DA31419E5F000D351B1 /* CHSStatusBar.m in Sources */,
+				CBA270AA141A052800D351B1 /* CHKeychain.m in Sources */,
+				CBA2715E141A0F8400D351B1 /* Prefs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BNS_Prefix.pch;
+				INFOPLIST_FILE = "BNS-Info.plist";
+				PRODUCT_NAME = BNS;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BNS_Prefix.pch;
+				INFOPLIST_FILE = "BNS-Info.plist";
+				PRODUCT_NAME = BNS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

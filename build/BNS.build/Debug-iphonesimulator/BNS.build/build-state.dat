@@ -1,0 +1,1075 @@
+TBNS
+v7
+r0
+t337254838.155958
+cCheck dependencies
+cProcessInfoPlistFile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/Info.plist BNS-Info.plist
+cCompileXIB /Users/qshl/Desktop/BNS/LoginController.xib
+cCpResource build/Debug-iphonesimulator/BNS.app/titlebar_focused.png images/titlebar_focused.png
+cCpResource build/Debug-iphonesimulator/BNS.app/titlebar_normal.png images/titlebar_normal.png
+cCpResource build/Debug-iphonesimulator/BNS.app/ad.png images/ad.png
+cCompileXIB /Users/qshl/Desktop/BNS/Classes/MainController.xib
+cCpResource build/Debug-iphonesimulator/BNS.app/checkbox_checked.png images/checkbox_checked.png
+cCpResource build/Debug-iphonesimulator/BNS.app/checkbox_nor.png images/checkbox_nor.png
+cCpResource build/Debug-iphonesimulator/BNS.app/button_nor.png images/button_nor.png
+cCpResource build/Debug-iphonesimulator/BNS.app/button_pressed.png images/button_pressed.png
+cCompileXIB /Users/qshl/Desktop/BNS/Classes/RegisterController.xib
+cCpResource build/Debug-iphonesimulator/BNS.app/statusbar_background.png Classes/ui/statusbar_background.png
+cProcessPCH /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch.gch BNS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/main.o /Users/qshl/Desktop/BNS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSAppDelegate.o /Users/qshl/Desktop/BNS/Classes/BNSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginController.o /Users/qshl/Desktop/BNS/Classes/LoginController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/MainController.o /Users/qshl/Desktop/BNS/Classes/MainController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterController.o /Users/qshl/Desktop/BNS/Classes/RegisterController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/iToast.o /Users/qshl/Desktop/BNS/Classes/ui/iToast.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHSStatusBar.o /Users/qshl/Desktop/BNS/Classes/ui/CHSStatusBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHKeychain.o /Users/qshl/Desktop/BNS/Classes/util/CHKeychain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/Prefs.o /Users/qshl/Desktop/BNS/Classes/Prefs.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS normal i386
+cGenerateDSYMFile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app.dSYM /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS
+cTouch /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h
+c000000004D54CEFA00000000000004F5
+t1297403642
+s1269
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004D54CEFE0000000000088380
+t1297403646
+s557952
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/qshl/Desktop/BNS/BNS_Prefix.pch
+c000000004E69D84B00000000000000C2
+t1315559499
+s194
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Prefs.h"
+
+N/Users/qshl/Desktop/BNS/Classes/BNSAppDelegate.h
+c000000004E69E21D000000000000026F
+t1315562013
+s623
+
+N/Users/qshl/Desktop/BNS/Classes/BNSAppDelegate.m
+c000000004E69E21D0000000000000B8E
+t1315562013
+s2958
+i"BNSAppDelegate.h"
+i"LoginController.h"
+i"MainController.h"
+
+N/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.h
+c000000004E65DD3400000000000000FE
+t1315298612
+s254
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m
+c000000004E65DDB90000000000000396
+t1315298745
+s918
+i"CHUICheckBox.h"
+
+N/Users/qshl/Desktop/BNS/Classes/CustomStatusBar.h
+c000000004E69AD5D0000000000000177
+t1315548509
+s375
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/CustomStatusBar.m
+c000000004E69AE1800000000000006F6
+t1315548696
+s1782
+i"CustomStatusBar.h"
+
+N/Users/qshl/Desktop/BNS/Classes/LoginController.h
+c000000004E69E21D0000000000000310
+t1315562013
+s784
+i"RegisterController.h"
+i"iToast.h"
+i"CHStatusBar.h"
+
+N/Users/qshl/Desktop/BNS/Classes/LoginController.m
+c000000004E69E1CD00000000000017CF
+t1315561933
+s6095
+i"LoginController.h"
+i"CHKeychain.h"
+
+N/Users/qshl/Desktop/BNS/Classes/LoginRegisterController.h
+c000000004E65D5BD0000000000000225
+t1315296701
+s549
+i<UIKit/UIKit.h>
+
+N/Users/qshl/Desktop/BNS/Classes/LoginRegisterController.m
+c000000004E65D5F100000000000008A5
+t1315296753
+s2213
+i"LoginRegisterController.h"
+
+N/Users/qshl/Desktop/BNS/Classes/MainController.h
+c000000004E69E21D00000000000000D7
+t1315562013
+s215
+
+N/Users/qshl/Desktop/BNS/Classes/MainController.m
+c000000004E69E21800000000000005B0
+t1315562008
+s1456
+i"MainController.h"
+
+N/Users/qshl/Desktop/BNS/Classes/MainController.xib
+c000000004E6599230000000000001865
+t1315281187
+s6245
+
+N/Users/qshl/Desktop/BNS/Classes/Prefs.h
+c000000004E69DB3B00000000000001B9
+t1315560251
+s441
+
+N/Users/qshl/Desktop/BNS/Classes/Prefs.m
+c000000004E69DB5600000000000001CE
+t1315560278
+s462
+i"Prefs.h"
+
+N/Users/qshl/Desktop/BNS/Classes/RecipeAddDelegate.h
+c000000004E697D45000000000000016C
+t1315536197
+s364
+i<UIKit/UIKit.h>
+
+N/Users/qshl/Desktop/BNS/Classes/RegisterController.h
+c000000004E69E21D0000000000000509
+t1315562013
+s1289
+
+N/Users/qshl/Desktop/BNS/Classes/RegisterController.m
+c000000004E69E21D00000000000007CD
+t1315562013
+s1997
+i"RegisterController.h"
+
+N/Users/qshl/Desktop/BNS/Classes/RegisterController.xib
+c000000004E6976570000000000009853
+t1315534423
+s38995
+
+N/Users/qshl/Desktop/BNS/Classes/RegisterResult.h
+c000000004E698B4200000000000001F7
+t1315539778
+s503
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/RegisterResult.m
+c000000004E698B71000000000000013C
+t1315539825
+s316
+i"RegisterResult.h"
+
+N/Users/qshl/Desktop/BNS/Classes/ResisterResult.h
+c000000004E6984D000000000000001F3
+t1315538128
+s499
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/ResisterResult.m
+c000000004E6984BD00000000000000E1
+t1315538109
+s225
+i"ResisterResult.h"
+
+N/Users/qshl/Desktop/BNS/Classes/ui/BNSStatusBar.h
+c000000004E69AEF20000000000000174
+t1315548914
+s372
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/ui/BNSStatusBar.m
+c000000004E69AF0900000000000006F0
+t1315548937
+s1776
+i"BNSStatusBar.h"
+
+N/Users/qshl/Desktop/BNS/Classes/ui/CHSStatusBar.m
+c000000004E69B431000000000000086C
+t1315550257
+s2156
+i"CHStatusBar.h"
+
+N/Users/qshl/Desktop/BNS/Classes/ui/CHStatusBar.h
+c000000004E69B1740000000000000254
+t1315549556
+s596
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/ui/CHToast.h
+c000000004E698C700000000000000620
+t1315540080
+s1568
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/qshl/Desktop/BNS/Classes/ui/CHToast.m
+c000000004E69AF2D0000000000001272
+t1315548973
+s4722
+i"CHToast.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.h
+c000000004E69AEF20000000000000174
+t1315548914
+s372
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m
+c000000004E69AEFD00000000000006F0
+t1315548925
+s1776
+i"BNSStatusBar.h"
+
+N/Users/qshl/Desktop/BNS/Classes/ui/iToast.h
+c000000004E698C700000000000000620
+t1315540080
+s1568
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/qshl/Desktop/BNS/Classes/ui/iToast.m
+c000000004E69AFD50000000000001271
+t1315549141
+s4721
+i"iToast.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/qshl/Desktop/BNS/Classes/ui/statusbar_background.png
+c000000004C927B0300000000000000C4
+t1284668163
+s196
+
+N/Users/qshl/Desktop/BNS/Classes/untitled.h
+c000000004E69B67C00000000000000D3
+t1315550844
+s211
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/untitled.m
+c000000004E69B67C00000000000000BB
+t1315550844
+s187
+i"untitled.h"
+
+N/Users/qshl/Desktop/BNS/Classes/util/CHKeychain.h
+c000000004E69D2230000000000000166
+t1315557923
+s358
+i<Foundation/Foundation.h>
+i<Security/Security.h>
+
+N/Users/qshl/Desktop/BNS/Classes/util/CHKeychain.m
+c000000004E69D40300000000000006E6
+t1315558403
+s1766
+i"CHKeychain.h"
+
+N/Users/qshl/Desktop/BNS/Classes/util/iToast.h
+c000000004E698B010000000000000620
+t1315539713
+s1568
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/qshl/Desktop/BNS/Classes/util/iToast.m
+c000000004D554147000000000000124D
+t1297432903
+s4685
+i"iToast.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/qshl/Desktop/BNS/Classes/util/untitled.h
+c000000004E69CDA800000000000000D3
+t1315556776
+s211
+i<Foundation/Foundation.h>
+
+N/Users/qshl/Desktop/BNS/Classes/util/untitled.m
+c000000004E69CDA800000000000000BB
+t1315556776
+s187
+i"untitled.h"
+
+N/Users/qshl/Desktop/BNS/Login+Register.xib
+c000000004E657B960000000000004632
+t1315273622
+s17970
+
+N/Users/qshl/Desktop/BNS/Login.xib
+c000000004E657B960000000000004632
+t1315273622
+s17970
+
+N/Users/qshl/Desktop/BNS/LoginAndRegister.xib
+c000000004E65909300000000000073B0
+t1315278995
+s29616
+
+N/Users/qshl/Desktop/BNS/LoginController.xib
+c000000004E69C48B000000000000A31B
+t1315554443
+s41755
+
+N/Users/qshl/Desktop/BNS/LoginRegister.xib
+c000000004E6599A10000000000006AB0
+t1315281313
+s27312
+
+N/Users/qshl/Desktop/BNS/LoginRegisterController.xib
+c000000004E65D8AE0000000000007CA4
+t1315297454
+s31908
+
+N/Users/qshl/Desktop/BNS/MainWindow.xib
+c000000004E657B4700000000000020F4
+t1315273543
+s8436
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNS.LinkFileList
+c000000004E69D81900000000000003B9
+t1315559449
+s953
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSAppDelegate.o
+t1315562013
+s52040
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSStatusBar.o
+t1315548938
+s48992
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHKeychain.o
+t1315560643
+s13592
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHSStatusBar.o
+t1315560643
+s49668
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHToast.o
+t1315548974
+s67944
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHUICheckBox.o
+t2
+s0
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CustomStatusBar.o
+t2
+s0
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginController.o
+t1315562013
+s63192
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginRegisterController.o
+t1315297414
+s47204
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/MainController.o
+t1315562013
+s37968
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/Prefs.o
+t1315560643
+s5352
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterController.o
+t1315562013
+s48632
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterResult.o
+t1315539826
+s3920
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/ResisterResult.o
+t1315538131
+s4984
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/iToast.o
+t1315560643
+s67944
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/main.o
+t1315562013
+s6852
+
+N/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/untitled.o
+t2
+s0
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app
+t1315562013
+s544
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app.dSYM
+t1315562013
+s102
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS
+t1315562013
+s58112
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/Info.plist
+t1315300442
+s542
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/Login+Register.nib
+t2
+s0
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/Login.nib
+t2
+s0
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/LoginAndRegister.nib
+t1315279011
+s4375
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/LoginController.nib
+t1315554459
+s6798
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/LoginRegister.nib
+t1315281355
+s3955
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/LoginRegisterController.nib
+t1315297455
+s5905
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/MainController.nib
+t1315300443
+s1231
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/MainWindow.nib
+t1315273554
+s1525
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/PkgInfo
+t1315300442
+s8
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/RegisterController.nib
+t1315534640
+s6158
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/ad.png
+t1315300442
+s21386
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/button_nor.png
+t1315300443
+s4065
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/button_pressed.png
+t1315300443
+s4017
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/checkbox_checked.png
+t1315300443
+s4289
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/checkbox_nor.png
+t1315300443
+s3068
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/statusbar_background.png
+t1315548804
+s196
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/titlebar_focused.png
+t1315300442
+s4162
+
+N/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/titlebar_normal.png
+t1315300442
+s3219
+
+N/Users/qshl/Desktop/BNS/images/ad.png
+c000000004E5B51F8000000000000538A
+t1314607608
+s21386
+
+N/Users/qshl/Desktop/BNS/images/button_nor.png
+c000000004E5788F30000000000000FE1
+t1314359539
+s4065
+
+N/Users/qshl/Desktop/BNS/images/button_pressed.png
+c000000004E5788F30000000000000FB1
+t1314359539
+s4017
+
+N/Users/qshl/Desktop/BNS/images/checkbox_checked.png
+c000000004E169F5700000000000010C1
+t1310105431
+s4289
+
+N/Users/qshl/Desktop/BNS/images/checkbox_nor.png
+c000000004E169F680000000000000BFC
+t1310105448
+s3068
+
+N/Users/qshl/Desktop/BNS/images/titlebar_focused.png
+c000000004E16A84D0000000000001042
+t1310107725
+s4162
+
+N/Users/qshl/Desktop/BNS/images/titlebar_normal.png
+c000000004E16A8610000000000000C93
+t1310107745
+s3219
+
+N/Users/qshl/Desktop/BNS/main.m
+c000000004E69E21D00000000000001D4
+t1315562013
+s468
+i<UIKit/UIKit.h>
+i"BNSAppDelegate.h"
+
+N/var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch.gch
+t1315560259
+s15814096
+
+N/var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch.gch
+t1315560643
+s15814096
+
+NBNS-Info.plist
+c000000004E6593380000000000000356
+t1315279672
+s854
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337254838#337254838#0(0"0(0#1#0"8656667712#0"0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSAppDelegate.o /Users/qshl/Desktop/BNS/Classes/BNSAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337254813.285152
+e337254813.368217
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSAppDelegate.o
+x/Users/qshl/Desktop/BNS/Classes/BNSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/qshl/Desktop/BNS/Classes/BNSAppDelegate.m337254813#337254813#0(0"0(0#0#48"/Users/qshl/Desktop/BNS/Classes/BNSAppDelegate.m8624914048#1697"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/BNSAppDelegate.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSAppDelegate.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSStatusBar.o /Users/qshl/Desktop/BNS/Classes/ui/BNSStatusBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337241738.008365
+e337241738.052140
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSStatusBar.o
+x/Users/qshl/Desktop/BNS/Classes/ui/BNSStatusBar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/qshl/Desktop/BNS/Classes/ui/BNSStatusBar.m337241738#337241738#0(0"0(0#0#49"/Users/qshl/Desktop/BNS/Classes/ui/BNSStatusBar.m8631023072#1696"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/ui/BNSStatusBar.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNSStatusBar.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHKeychain.o /Users/qshl/Desktop/BNS/Classes/util/CHKeychain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337253443.885527
+e337253443.927990
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHKeychain.o
+x/Users/qshl/Desktop/BNS/Classes/util/CHKeychain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/qshl/Desktop/BNS/Classes/util/CHKeychain.m337253443#337253443#0(0"0(0#0#49"/Users/qshl/Desktop/BNS/Classes/util/CHKeychain.m8662389312#1694"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/util/CHKeychain.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHKeychain.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHSStatusBar.o /Users/qshl/Desktop/BNS/Classes/ui/CHSStatusBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337253443.873691
+e337253443.929789
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHSStatusBar.o
+x/Users/qshl/Desktop/BNS/Classes/ui/CHSStatusBar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/qshl/Desktop/BNS/Classes/ui/CHSStatusBar.m337253443#337253443#0(0"0(0#0#49"/Users/qshl/Desktop/BNS/Classes/ui/CHSStatusBar.m8634152800#1696"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/ui/CHSStatusBar.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHSStatusBar.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHToast.o /Users/qshl/Desktop/BNS/Classes/ui/CHToast.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337241774.628999
+e337241774.738002
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHToast.o
+x/Users/qshl/Desktop/BNS/Classes/ui/CHToast.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/qshl/Desktop/BNS/Classes/ui/CHToast.m337241774#337241774#0(0"0(0#0#44"/Users/qshl/Desktop/BNS/Classes/ui/CHToast.m8616328416#1686"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/ui/CHToast.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHToast.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHUICheckBox.o /Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336991535.680118
+e336991535.744343
+r0
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHUICheckBox.o
+x/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m: In function '-[CHUICheckBox init]':
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:16: error: 'x' undeclared (first use in this function)
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:16: error: (Each undeclared identifier is reported only once
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:16: error: for each function it appears in.)
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:16: error: 'y' undeclared (first use in this function)
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:22: error: expected ']' before 'setBackgroundImage'
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:22: error: array subscript is not an integer
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:22: error: expected ']' before ';' token
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:27: error: expected ';' before '}' token
+o/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:27: warning: control reaches end of non-void function
+lSLF07#2@54"Compile /Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m336991535#336991535#0(956"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m: In function '-[CHUICheckBox init]':/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:16: error: 'x' undeclared (first use in this function)/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:16: error: (Each undeclared identifier is reported only once/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:16: error: for each function it appears in.)/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:16: error: 'y' undeclared (first use in this function)/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:22: error: expected ']' before 'setBackgroundImage'/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:22: error: array subscript is not an integer/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:22: error: expected ']' before ';' token/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:27: error: expected ';' before '}' token/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m:27: warning: control reaches end of non-void function7(4@43"'x' undeclared (first use in this function)336991535#84#102#0(6@46"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m336991532#16#0#16#0#43"'*' undeclared (first use in this function)0(4@43"'y' undeclared (first use in this function)336991535#386#102#0(6@46"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m336991532#16#0#16#0#43"'*' undeclared (first use in this function)0(4@40"Expected ']' before 'setBackgroundImage'336991535#488#99#0(6@46"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m336991532#22#0#22#0#19"expected * before *0(4@33"Array subscript is not an integer336991535#587#92#0(6@46"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m336991532#22#0#22#0#0"0(4@29"Expected ']' before ';' token336991535#679#88#0(6@46"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m336991532#22#0#22#0#19"expected * before *0(4@29"Expected ';' before '}' token336991535#767#88#0(6@46"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m336991532#27#0#27#0#19"expected * before *0(22@40"Control reaches end of non-void function336991535#855#101#0(6@46"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m336991532#27#0#27#0#40"control reaches end of non-void function0(0#0#46"/Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m8613867872#1693"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/CHUICheckBox.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CHUICheckBox.o1#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CustomStatusBar.o /Users/qshl/Desktop/BNS/Classes/CustomStatusBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337241488.675632
+e337241488.767478
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CustomStatusBar.o
+x/Users/qshl/Desktop/BNS/Classes/CustomStatusBar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/qshl/Desktop/BNS/Classes/CustomStatusBar.m337241488#337241488#0(0"0(0#0#49"/Users/qshl/Desktop/BNS/Classes/CustomStatusBar.m8631558784#1699"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/CustomStatusBar.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CustomStatusBar.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CustomStatusBar.o /Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337241725.896739
+e337241725.967201
+r0
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CustomStatusBar.o
+x/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:9:25: error: BNSStatusBar.h: No such file or directory
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:15: warning: cannot find interface declaration for 'BNSStatusBar'
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m: In function '-[BNSStatusBar initWithFrame:]':
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:16: error: no super class declared in @interface for 'BNSStatusBar'
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:18: error: request for member 'windowLevel' in something not a structure or union
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:19: error: request for member 'frame' in something not a structure or union
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:21: error: request for member 'frame' in something not a structure or union
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:23: warning: 'BNSStatusBar' may not respond to '-addSubview:'
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:23: warning: (Messages without a matching method signature
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:23: warning: will be assumed to return 'id' and accept
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:23: warning: '...' as arguments.)
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:26: error: 'indicator' undeclared (first use in this function)
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:26: error: (Each undeclared identifier is reported only once
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:26: error: for each function it appears in.)
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:27: error: request for member 'frame' in something not a structure or union
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:27: error: request for member 'frame' in something not a structure or union
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:29: warning: 'BNSStatusBar' may not respond to '-addSubview:'
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:31: error: 'lblStatus' undeclared (first use in this function)
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:31: error: request for member 'frame' in something not a structure or union
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:31: error: request for member 'frame' in something not a structure or union
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:35: warning: 'BNSStatusBar' may not respond to '-addSubview:'
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m: In function '-[BNSStatusBar showWithStatusMessage:]':
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:42: error: 'lblStatus' undeclared (first use in this function)
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:43: error: 'indicator' undeclared (first use in this function)
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:44: error: request for member 'hidden' in something not a structure or union
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m: In function '-[BNSStatusBar hide]':
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:48: error: 'indicator' undeclared (first use in this function)
+o/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:49: error: request for member 'hidden' in something not a structure or union
+lSLF07#2@60"Compile /Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#337241725#0(3259"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:9:25: error: BNSStatusBar.h: No such file or directory/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:15: warning: cannot find interface declaration for 'BNSStatusBar'/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m: In function '-[BNSStatusBar initWithFrame:]':/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:16: error: no super class declared in @interface for 'BNSStatusBar'/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:18: error: request for member 'windowLevel' in something not a structure or union/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:19: error: request for member 'frame' in something not a structure or union/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:21: error: request for member 'frame' in something not a structure or union/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:23: warning: 'BNSStatusBar' may not respond to '-addSubview:'/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:23: warning: (Messages without a matching method signature/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:23: warning: will be assumed to return 'id' and accept/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:23: warning: '...' as arguments.)/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:26: error: 'indicator' undeclared (first use in this function)/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:26: error: (Each undeclared identifier is reported only once/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:26: error: for each function it appears in.)/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:27: error: request for member 'frame' in something not a structure or union/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:27: error: request for member 'frame' in something not a structure or union/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:29: warning: 'BNSStatusBar' may not respond to '-addSubview:'/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:31: error: 'lblStatus' undeclared (first use in this function)/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:31: error: request for member 'frame' in something not a structure or union/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:31: error: request for member 'frame' in something not a structure or union/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:35: warning: 'BNSStatusBar' may not respond to '-addSubview:'/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m: In function '-[BNSStatusBar showWithStatusMessage:]':/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:42: error: 'lblStatus' undeclared (first use in this function)/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:43: error: 'indicator' undeclared (first use in this function)/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:44: error: request for member 'hidden' in something not a structure or union/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m: In function '-[BNSStatusBar hide]':/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:48: error: 'indicator' undeclared (first use in this function)/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m:49: error: request for member 'hidden' in something not a structure or union21(4@41"BNSStatusBar.h: No such file or directory337241725#0#108#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#9#0#9#0#28"*: No such file or directory0(22@52"Cannot find interface declaration for 'BNSStatusBar'337241725#108#119#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#15#0#15#0#0"0(4@56"No super class declared in @interface for 'BNSStatusBar'337241725#327#121#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#16#0#16#0#0"0(4@70"Request for member 'windowLevel' in something not a structure or union337241725#448#135#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#18#0#18#0#0"0(4@64"Request for member 'frame' in something not a structure or union337241725#583#129#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#19#0#19#0#0"0(4@64"Request for member 'frame' in something not a structure or union337241725#712#129#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#21#0#21#0#0"0(22@48"'BNSStatusBar' may not respond to '-addSubview:'337241725#841#115#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#23#0#23#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)337241725#956#112#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#23#0#23#0#0"0(4@51"'indicator' undeclared (first use in this function)337241725#1263#116#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#26#0#26#0#43"'*' undeclared (first use in this function)0(4@64"Request for member 'frame' in something not a structure or union337241725#1591#129#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#27#0#27#0#0"0(4@64"Request for member 'frame' in something not a structure or union337241725#1720#129#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#27#0#27#0#0"0(22@48"'BNSStatusBar' may not respond to '-addSubview:'337241725#1849#115#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#29#0#29#0#26"'*' may not respond to '*'0(4@51"'lblStatus' undeclared (first use in this function)337241725#1964#116#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#31#0#31#0#43"'*' undeclared (first use in this function)0(4@64"Request for member 'frame' in something not a structure or union337241725#2080#129#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#31#0#31#0#0"0(4@64"Request for member 'frame' in something not a structure or union337241725#2209#129#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#31#0#31#0#0"0(22@48"'BNSStatusBar' may not respond to '-addSubview:'337241725#2338#115#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#35#0#35#0#26"'*' may not respond to '*'0(4@51"'lblStatus' undeclared (first use in this function)337241725#2561#116#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#42#0#42#0#43"'*' undeclared (first use in this function)0(4@51"'indicator' undeclared (first use in this function)337241725#2677#116#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#43#0#43#0#43"'*' undeclared (first use in this function)0(4@65"Request for member 'hidden' in something not a structure or union337241725#2793#130#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#44#0#44#0#0"0(4@51"'indicator' undeclared (first use in this function)337241725#3013#116#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#48#0#48#0#43"'*' undeclared (first use in this function)0(4@65"Request for member 'hidden' in something not a structure or union337241725#3129#130#0(6@52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m337241725#49#0#49#0#0"0(0#0#52"/Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m8621304352#1702"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/ui/CustomStatusBar.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/CustomStatusBar.o1#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginController.o /Users/qshl/Desktop/BNS/Classes/LoginController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337254813.285753
+e337254813.395530
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginController.o
+x/Users/qshl/Desktop/BNS/Classes/LoginController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/qshl/Desktop/BNS/Classes/LoginController.m337254813#337254813#0(0"0(0#0#49"/Users/qshl/Desktop/BNS/Classes/LoginController.m8625109184#1699"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/LoginController.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginController.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginRegisterController.o /Users/qshl/Desktop/BNS/Classes/LoginRegisterController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s336990214.561077
+e336990214.599232
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginRegisterController.o
+x/Users/qshl/Desktop/BNS/Classes/LoginRegisterController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/qshl/Desktop/BNS/Classes/LoginRegisterController.m336990214#336990214#0(0"0(0#0#57"/Users/qshl/Desktop/BNS/Classes/LoginRegisterController.m8604524544#1715"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/LoginRegisterController.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/LoginRegisterController.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/MainController.o /Users/qshl/Desktop/BNS/Classes/MainController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337254813.286308
+e337254813.362179
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/MainController.o
+x/Users/qshl/Desktop/BNS/Classes/MainController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/qshl/Desktop/BNS/Classes/MainController.m337254813#337254813#0(0"0(0#0#48"/Users/qshl/Desktop/BNS/Classes/MainController.m8655736480#1697"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/MainController.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/MainController.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/Prefs.o /Users/qshl/Desktop/BNS/Classes/Prefs.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337253443.886520
+e337253443.916881
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/Prefs.o
+x/Users/qshl/Desktop/BNS/Classes/Prefs.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/qshl/Desktop/BNS/Classes/Prefs.m337253443#337253443#0(0"0(0#0#39"/Users/qshl/Desktop/BNS/Classes/Prefs.m8661859744#1679"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/Prefs.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/Prefs.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterController.o /Users/qshl/Desktop/BNS/Classes/RegisterController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337254813.344594
+e337254813.410066
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterController.o
+x/Users/qshl/Desktop/BNS/Classes/RegisterController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/qshl/Desktop/BNS/Classes/RegisterController.m337254813#337254813#0(0"0(0#0#52"/Users/qshl/Desktop/BNS/Classes/RegisterController.m8657304704#1705"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/RegisterController.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterController.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterResult.o /Users/qshl/Desktop/BNS/Classes/RegisterResult.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337232625.980628
+e337232626.056434
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterResult.o
+x/Users/qshl/Desktop/BNS/Classes/RegisterResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/qshl/Desktop/BNS/Classes/RegisterResult.m337232625#337232626#0(0"0(0#0#48"/Users/qshl/Desktop/BNS/Classes/RegisterResult.m8630485536#1697"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/RegisterResult.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/RegisterResult.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/ResisterResult.o /Users/qshl/Desktop/BNS/Classes/ResisterResult.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337230931.791276
+e337230931.828290
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/ResisterResult.o
+x/Users/qshl/Desktop/BNS/Classes/ResisterResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/qshl/Desktop/BNS/Classes/ResisterResult.m:14: warning: cannot find interface declaration for 'ResisterResult'
+lSLF07#2@56"Compile /Users/qshl/Desktop/BNS/Classes/ResisterResult.m337230931#337230931#0(117"/Users/qshl/Desktop/BNS/Classes/ResisterResult.m:14: warning: cannot find interface declaration for 'ResisterResult'1(22@54"Cannot find interface declaration for 'ResisterResult'337230931#0#117#0(6@48"/Users/qshl/Desktop/BNS/Classes/ResisterResult.m337230909#14#0#14#0#0"0(0#0#48"/Users/qshl/Desktop/BNS/Classes/ResisterResult.m8632514656#1697"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/ResisterResult.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/ResisterResult.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/iToast.o /Users/qshl/Desktop/BNS/Classes/ui/iToast.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337253443.857145
+e337253443.945606
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/iToast.o
+x/Users/qshl/Desktop/BNS/Classes/ui/iToast.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/qshl/Desktop/BNS/Classes/ui/iToast.m337253443#337253443#0(0"0(0#0#43"/Users/qshl/Desktop/BNS/Classes/ui/iToast.m8632305600#1684"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/ui/iToast.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/iToast.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/iToast.o /Users/qshl/Desktop/BNS/Classes/util/iToast.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337232589.261439
+e337232589.358292
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/iToast.o
+x/Users/qshl/Desktop/BNS/Classes/util/iToast.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/qshl/Desktop/BNS/Classes/util/iToast.m337232589#337232589#0(0"0(0#0#45"/Users/qshl/Desktop/BNS/Classes/util/iToast.m8633639040#1686"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/Classes/util/iToast.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/iToast.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/main.o /Users/qshl/Desktop/BNS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337254813.284576
+e337254813.344511
+r1
+xCompileC
+xbuild/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/main.o
+x/Users/qshl/Desktop/BNS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /Users/qshl/Desktop/BNS/main.m337254813#337254813#0(0"0(0#0#30"/Users/qshl/Desktop/BNS/main.m8647470560#1669"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -include /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch -c /Users/qshl/Desktop/BNS/main.m -o /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/main.o0#
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/untitled.o /Users/qshl/Desktop/BNS/Classes/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/untitled.o /Users/qshl/Desktop/BNS/Classes/util/untitled.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/qshl/Desktop/BNS/Classes/MainController.xib
+s336993242.994169
+e336993243.374633
+r1
+xCompileXIB
+x/Users/qshl/Desktop/BNS/Classes/MainController.xib
+lSLF07#2@37"CompileXIB Classes/MainController.xib336993242#336993243#0(0"0(0#0#50"/Users/qshl/Desktop/BNS/Classes/MainController.xib8613770752#537"    cd /Users/qshl/Desktop/BNS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/MainController.nib /Users/qshl/Desktop/BNS/Classes/MainController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/qshl/Desktop/BNS/Classes/RegisterController.xib
+s337227439.832329
+e337227440.375938
+r1
+xCompileXIB
+x/Users/qshl/Desktop/BNS/Classes/RegisterController.xib
+lSLF07#2@41"CompileXIB Classes/RegisterController.xib337227439#337227440#0(0"0(0#0#54"/Users/qshl/Desktop/BNS/Classes/RegisterController.xib8614516480#545"    cd /Users/qshl/Desktop/BNS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/RegisterController.nib /Users/qshl/Desktop/BNS/Classes/RegisterController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/qshl/Desktop/BNS/Login+Register.xib
+r0
+
+CCompileXIB /Users/qshl/Desktop/BNS/Login.xib
+r0
+
+CCompileXIB /Users/qshl/Desktop/BNS/LoginAndRegister.xib
+s336971810.800241
+e336971811.161181
+r1
+xCompileXIB
+x/Users/qshl/Desktop/BNS/LoginAndRegister.xib
+lSLF07#2@31"CompileXIB LoginAndRegister.xib336971810#336971811#0(0"0(0#0#44"/Users/qshl/Desktop/BNS/LoginAndRegister.xib18296345939476584#533"    cd /Users/qshl/Desktop/BNS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/LoginAndRegister.nib /Users/qshl/Desktop/BNS/LoginAndRegister.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/qshl/Desktop/BNS/LoginController.xib
+s337247259.021156
+e337247259.438995
+r1
+xCompileXIB
+x/Users/qshl/Desktop/BNS/LoginController.xib
+lSLF07#2@30"CompileXIB LoginController.xib337247259#337247259#0(0"0(0#0#43"/Users/qshl/Desktop/BNS/LoginController.xib8625438784#531"    cd /Users/qshl/Desktop/BNS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/LoginController.nib /Users/qshl/Desktop/BNS/LoginController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/qshl/Desktop/BNS/LoginRegister.xib
+s336974154.824397
+e336974155.073626
+r1
+xCompileXIB
+x/Users/qshl/Desktop/BNS/LoginRegister.xib
+lSLF07#2@28"CompileXIB LoginRegister.xib336974154#336974155#0(0"0(0#0#41"/Users/qshl/Desktop/BNS/LoginRegister.xib8629861056#527"    cd /Users/qshl/Desktop/BNS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/LoginRegister.nib /Users/qshl/Desktop/BNS/LoginRegister.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/qshl/Desktop/BNS/LoginRegisterController.xib
+s336990255.715267
+e336990256.013529
+r1
+xCompileXIB
+x/Users/qshl/Desktop/BNS/LoginRegisterController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/qshl/Desktop/BNS/LoginRegisterController.xib:-1: warning: The 'btnTab2Login' outlet of 'File's Owner' is connected to 'Rounded Rect Button (登陆)' but 'btnTab2Login' is no longer defined on LoginController.
+o/Users/qshl/Desktop/BNS/LoginRegisterController.xib:-1: warning: The 'btnTab2Register' outlet of 'File's Owner' is connected to 'Rounded Rect Button (注册)' but 'btnTab2Register' is no longer defined on LoginController.
+o/Users/qshl/Desktop/BNS/LoginRegisterController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on LoginController.
+lSLF07#2@38"CompileXIB LoginRegisterController.xib336990255#336990256#0(655"/* com.apple.ibtool.document.warnings *//Users/qshl/Desktop/BNS/LoginRegisterController.xib:-1: warning: The 'btnTab2Login' outlet of 'File's Owner' is connected to 'Rounded Rect Button (登陆)' but 'btnTab2Login' is no longer defined on LoginController./Users/qshl/Desktop/BNS/LoginRegisterController.xib:-1: warning: The 'btnTab2Register' outlet of 'File's Owner' is connected to 'Rounded Rect Button (注册)' but 'btnTab2Register' is no longer defined on LoginController./Users/qshl/Desktop/BNS/LoginRegisterController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on LoginController.3(22@150"The 'btnTab2Login' outlet of 'File's Owner' is connected to 'Rounded Rect Button (登陆)' but 'btnTab2Login' is no longer defined on LoginController.336990256#18446744073709551615#0#0(6@51"/Users/qshl/Desktop/BNS/LoginRegisterController.xib336990254#18446744073709551615#0#18446744073709551615#0#0"0(22@156"The 'btnTab2Register' outlet of 'File's Owner' is connected to 'Rounded Rect Button (注册)' but 'btnTab2Register' is no longer defined on LoginController.336990256#18446744073709551615#0#0(6@51"/Users/qshl/Desktop/BNS/LoginRegisterController.xib336990254#18446744073709551615#0#18446744073709551615#0#0"0(22@110"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on LoginController.336990256#18446744073709551615#0#0(6@51"/Users/qshl/Desktop/BNS/LoginRegisterController.xib336990254#18446744073709551615#0#18446744073709551615#0#0"0(0#0#51"/Users/qshl/Desktop/BNS/LoginRegisterController.xib8602943424#547"    cd /Users/qshl/Desktop/BNS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/LoginRegisterController.nib /Users/qshl/Desktop/BNS/LoginRegisterController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/qshl/Desktop/BNS/MainWindow.xib
+s336966354.145072
+e336966354.385475
+r1
+xCompileXIB
+x/Users/qshl/Desktop/BNS/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib336966354#336966354#0(0"0(0#0#38"/Users/qshl/Desktop/BNS/MainWindow.xib8602046816#521"    cd /Users/qshl/Desktop/BNS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/MainWindow.nib /Users/qshl/Desktop/BNS/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/BNS.app/ad.png images/ad.png
+s336993242.993635
+e336993243.002044
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BNS.app/ad.png
+ximages/ad.png
+lSLF07#2@18"Copy images/ad.png336993242#336993243#0(0"0(0#0#37"/Users/qshl/Desktop/BNS/images/ad.png8623069760#422"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/qshl/Desktop/BNS/images/ad.png /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
+CCpResource build/Debug-iphonesimulator/BNS.app/button_nor.png images/button_nor.png
+s336993243.003503
+e336993243.009245
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BNS.app/button_nor.png
+ximages/button_nor.png
+lSLF07#2@26"Copy images/button_nor.png336993243#336993243#0(0"0(0#0#45"/Users/qshl/Desktop/BNS/images/button_nor.png8614301024#430"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/qshl/Desktop/BNS/images/button_nor.png /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
+CCpResource build/Debug-iphonesimulator/BNS.app/button_pressed.png images/button_pressed.png
+s336993243.005538
+e336993243.010263
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BNS.app/button_pressed.png
+ximages/button_pressed.png
+lSLF07#2@30"Copy images/button_pressed.png336993243#336993243#0(0"0(0#0#49"/Users/qshl/Desktop/BNS/images/button_pressed.png8626145024#434"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/qshl/Desktop/BNS/images/button_pressed.png /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
+CCpResource build/Debug-iphonesimulator/BNS.app/checkbox_checked.png images/checkbox_checked.png
+s336993243.002108
+e336993243.008725
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BNS.app/checkbox_checked.png
+ximages/checkbox_checked.png
+lSLF07#2@32"Copy images/checkbox_checked.png336993243#336993243#0(0"0(0#0#51"/Users/qshl/Desktop/BNS/images/checkbox_checked.png8617105376#436"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/qshl/Desktop/BNS/images/checkbox_checked.png /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
+CCpResource build/Debug-iphonesimulator/BNS.app/checkbox_nor.png images/checkbox_nor.png
+s336993243.002950
+e336993243.008834
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BNS.app/checkbox_nor.png
+ximages/checkbox_nor.png
+lSLF07#2@28"Copy images/checkbox_nor.png336993243#336993243#0(0"0(0#0#47"/Users/qshl/Desktop/BNS/images/checkbox_nor.png8615460672#432"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/qshl/Desktop/BNS/images/checkbox_nor.png /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
+CCpResource build/Debug-iphonesimulator/BNS.app/statusbar_background.png Classes/ui/statusbar_background.png
+s337241604.571095
+e337241604.593387
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BNS.app/statusbar_background.png
+xClasses/ui/statusbar_background.png
+lSLF07#2@40"Copy Classes/ui/statusbar_background.png337241604#337241604#0(0"0(0#0#59"/Users/qshl/Desktop/BNS/Classes/ui/statusbar_background.png8633717472#444"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/qshl/Desktop/BNS/Classes/ui/statusbar_background.png /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
+CCpResource build/Debug-iphonesimulator/BNS.app/titlebar_focused.png images/titlebar_focused.png
+s336993242.992643
+e336993243.001767
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BNS.app/titlebar_focused.png
+ximages/titlebar_focused.png
+lSLF07#2@32"Copy images/titlebar_focused.png336993242#336993243#0(0"0(0#0#51"/Users/qshl/Desktop/BNS/images/titlebar_focused.png8613453728#436"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/qshl/Desktop/BNS/images/titlebar_focused.png /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
+CCpResource build/Debug-iphonesimulator/BNS.app/titlebar_normal.png images/titlebar_normal.png
+s336993242.993117
+e336993243.001943
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BNS.app/titlebar_normal.png
+ximages/titlebar_normal.png
+lSLF07#2@31"Copy images/titlebar_normal.png336993242#336993243#0(0"0(0#0#50"/Users/qshl/Desktop/BNS/images/titlebar_normal.png8603434528#435"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/qshl/Desktop/BNS/images/titlebar_normal.png /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
+CGenerateDSYMFile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app.dSYM /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS
+s337254813.430536
+e337254813.466798
+r1
+xGenerateDSYMFile
+x/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app.dSYM
+x/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/BNS.app.dSYM build/Debug-iphonesimulator/BNS.app/BNS337254813#337254813#0(0"0(0#0#63"/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS8662676192#326"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS -o /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app.dSYM0#
+
+CLd /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS normal i386
+s337254813.410136
+e337254813.430450
+r1
+xLd
+x/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS
+xnormal
+xi386
+lSLF07#2@68"Link /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS337254813#337254813#0(0"0(0#0#0"8663816416#825"    cd /Users/qshl/Desktop/BNS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -filelist /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/Objects-normal/i386/BNS.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Security -o /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/BNS0#
+
+CProcessInfoPlistFile /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/Info.plist BNS-Info.plist
+s336993242.988760
+e336993242.992080
+r1
+xProcessInfoPlistFile
+x/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/Info.plist
+xBNS-Info.plist
+lSLF07#2@22"Process BNS-Info.plist336993242#336993242#0(0"0(0#0#38"/Users/qshl/Desktop/BNS/BNS-Info.plist8613182080#422"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BNS-Info.plist -genpkginfo /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app/Info.plist0#
+
+CProcessPCH /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch.gch BNS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s337253058.729650
+e337253059.186607
+r1
+xProcessPCH
+x/var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch.gch
+xBNS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile BNS_Prefix.pch337253058#337253059#0(0"0(0#0#38"/Users/qshl/Desktop/BNS/BNS_Prefix.pch8623066144#1580"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -c /Users/qshl/Desktop/BNS/BNS_Prefix.pch -o /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-cmgidxohcseycogvtxoiloclkuqf/BNS_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch.gch BNS_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s337253443.346081
+e337253443.789895
+r1
+xProcessPCH
+x/var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch.gch
+xBNS_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile BNS_Prefix.pch337253443#337253443#0(0"0(0#0#38"/Users/qshl/Desktop/BNS/BNS_Prefix.pch8648407136#1580"    cd /Users/qshl/Desktop/BNS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-generated-files.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-own-target-headers.hmap -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-all-target-headers.hmap -iquote /Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/BNS-project-headers.hmap -F/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator -I/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/include -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources/i386 -I/Users/qshl/Desktop/BNS/build/BNS.build/Debug-iphonesimulator/BNS.build/DerivedSources -c /Users/qshl/Desktop/BNS/BNS_Prefix.pch -o /var/folders/j3/j30ERcU3GguBa-xqS1xijk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BNS_Prefix-fuhjejrbnbspufgsczrqxvwomelm/BNS_Prefix.pch.gch0#
+
+CTouch /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app
+s337254813.466873
+e337254813.468645
+r1
+xTouch
+x/Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app
+lSLF07#2@65"Touch /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app337254813#337254813#0(0"0(0#0#0"8662412960#244"    cd /Users/qshl/Desktop/BNS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/qshl/Desktop/BNS/build/Debug-iphonesimulator/BNS.app0#
+
